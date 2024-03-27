@@ -1,0 +1,514 @@
+
+body{
+  font-family: "Assistant", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+header {
+        font-family: "Zilla Slab Highlight", serif;
+        font-weight: 400;
+        font-style: normal;
+     
+        font-family: "Zilla Slab Highlight", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+
+
+header{
+    
+    background: linear-gradient( #8f8c8b,#645f5f,   #070707 ,#000000);
+    padding: 0px 0px;
+    font-weight: bold;
+    }
+
+   /* #652705,#6d3737,   #84453c ,#652705);*/
+    
+
+.caja{
+
+    width: 940px;
+    position: relative;
+    margin: 0px auto;
+}
+
+#logg{
+
+        width: 340px; /* Ajusta el ancho según sea necesario */
+        height: auto; /* Mantiene la relación de aspecto del logo */
+        /* Añade espacio a la derecha del logo */
+        
+        text-align: right;
+            clear: both;
+           
+}
+
+#logg{
+
+        
+    position: relative; /* Usa posición absoluta para mover el logo libremente dentro del contenedor .header */
+    left: -185px; /* Ajusta este valor para mover el logo hacia la izquierda */
+    top: 0px; /* Ajusta este valor para mover el logo hacia abajo o hacia arriba */
+     /* Asegura que el logo no se repita */
+    /* Asegura que el logo se ajuste dentro de su contenedor sin distorsionarse */
+    margin: 0 auto;
+        
+        
+        /*position: relative; /* Mantén la posición relativa para que el logo se posicione en relación a este contenedor  height: 90px;*/
+    }
+    
+    
+
+
+
+
+
+nav{
+    position: absolute;
+    top:110px ;
+    right: 0px ;
+}
+
+
+nav li{
+
+display: inline;
+margin: 0 0 0 15px;
+font-size: 100px;
+padding: 30px;
+}
+
+nav a{
+
+text-transform: uppercase;
+color: #a09d7d;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none; 
+}
+
+nav a:hover{
+    color: rgb(203, 160, 19);
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0  1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid #000000;
+    border-radius: 10px;    
+}
+
+
+.productos li:hover{
+
+    border-color: rgb(126, 97, 9);
+}
+.productos li:active{
+
+    border-color: rgb(21, 155, 30);
+  
+
+}
+
+.productos li:hover h2{
+
+    font-size: 33px;
+}
+
+.productosDescripcion{
+    font-size: 18px;
+}
+
+.productosPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:  10px;
+}
+
+
+.parrafoPie {
+    color: #ffffff;
+    font-size: 13px ;
+}
+
+
+form{
+    margin: 40px 0;
+    text-align: center;
+}
+
+form{
+    color: #ffffff;
+}
+
+form label, form legend{
+text-align: center;
+display: block;
+font-size: 20px;
+margin: 0 0 0 10px;
+}
+
+
+.padron{
+    text-align: center;
+
+    display: flexbox;
+    margin-right:0 0 10 20px;
+    padding: 10px 25px;
+    width: 60%;
+   
+}
+
+.padron{
+    margin: 20px;
+}
+
+main{
+    background: url(img/sillas.jpg);
+    
+    
+}
+
+.fondoSilla{
+      
+    
+    background-size: contain; /* Ajusta el tamaño de la imagen al 50% del ancho y alto del contenedor */
+    display: contents;
+   background-position: center;
+   
+}
+
+img .fondoSilla{
+
+    width: -100px;
+    height: -100px;
+}
+
+.formulario{
+
+    background-color: rgb(158, 103, 9);
+    padding: 70px 50px;
+    margin: auto;
+    margin-top: 0.11%;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+
+
+
+.opcion{
+
+    margin: 10px;
+}
+.op{
+    margin: 15px;
+}
+
+.opcion{
+
+    margin-left: 50px;
+}
+
+.checkbox{
+
+    margin: 20px 0px;
+}
+
+
+
+.enviar{
+
+    width: 40%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: saddlebrown;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+
+    background: #da7203;
+    transform: scale(1.20);
+  
+}
+
+table{
+    margin: 1px 40px;
+}
+
+table{
+    color: floralwhite;
+    align-content: center;
+}
+
+thead{
+background: rgb(202, 92, 41);
+color: #ffffff;
+font-weight: bold;
+}
+
+tbody{
+    background: rgb(48, 44, 42);
+
+}
+td, th{
+border: 1px solid #000000;
+
+padding: 8px 15px;
+
+}
+
+
+/* CSS para nuestro banner o imagen */
+
+.video-wrapper{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Para una relación de aspecto de 16:9 */
+    overflow: hidden;
+    
+   }
+   
+   
+
+
+
+
+section {
+    padding: 3em 0;
+   background: linear-gradient(#ffffff,  #e6e3e3, #fcfcfc , #d1cccc);
+ 
+   margin: 0 auto;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgba(18, 90, 90, 0.822);
+}
+
+/* .tituloPrincipal h3:not(#dif) {   color: rgba(18, 90, 90, 0.822);}-->
+
+.tituloPrincipal > p{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+   
+}*/
+
+
+
+
+
+.principal p {
+
+    margin:0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+.mapa{
+
+    padding: 3em 0;
+    background: linear-gradient( #d1cccc,  #675959 50%, #d7cfce ,#7e7777);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapaVisual{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+
+    padding: 3em 0;
+    background: #7e7777;
+    
+}
+
+.contenidoDiferencial{
+
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listaDiferenciales{
+
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+
+    line-height: 1.5;
+}
+
+
+
+.items:first-child{
+
+    font-weight: bold;
+}
+
+.items:before{
+
+    content: "★" ;
+}
+
+
+
+.imagenDiferencial{
+    width: 60%;
+    transition: 400ms;
+   box-shadow: 10px 10px 30px 25px #000000;
+}
+
+.imagenDiferencial:hover{
+    opacity: 0.3;
+
+}
+
+
+.video{
+    width: 560px;
+    margin: 1em auto ; 
+}
+
+
+
+
+footer{
+
+    background: url(imagenesProductos/bg.jpg);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.logosfinales{
+    color: #d1cccc;
+    text-align: left;
+    padding: 10px ;
+}
+
+.htmlLogo{
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+
+    width: 50px;
+    height: 100px;   
+}
+.htmlLogo{
+    margin-right: 15px;  
+}
+
+.cssLogo{
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+
+    width: 50px;
+    height: 100px;
+
+}
+
+.contenLogo{
+    display: flex;
+    padding: 10px ;
+}
+
+
+/* para las estrellas   */
+
+#Calificacion{
+
+    color: #ccc;
+    
+    display: flex;
+    padding: 10px ;
+}
+
+
+
+
+   .rating{
+    
+    display: flex;
+    padding: 10px ;
+   
+
+   }
+
+
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    font-size: 30px;
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: #a3970f;
+    transition: color 0.3s;
+  }
+  

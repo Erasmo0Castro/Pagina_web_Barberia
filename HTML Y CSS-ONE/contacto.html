@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+
+    <div class="caja">
+        <h1>
+            <img src="imagenesProductos/logo.png" alt="silueta de barba">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="paginaPrincipal.html"> Inicio</a></li>
+                <li><a href="productos.html"> Productos</a></li>
+                <li><a href="contacto.html"> Contacto</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    
+    
+</header>
+
+<main>
+    <img  class="fondoSilla" src="img/sillas.jpg" alt="fondo de barberia">
+    <form class="formulario">
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input type="text" id="nombreApellido" class="padron" required placeholder="Juan Perez">
+
+        <label for="correoElectronico">Correo electronico</label>
+        <input type="email" id="correoElectronico" class="padron" required placeholder="juanitop905@gmail.com">
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" class="padron" required placeholder="(849)-915-5555">
+
+        <label for="mensaje"> Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="70" rows="10"></textarea>
+<br><br><br>
+        <fieldset class="contacto">
+               <br>
+                <legend>¿Como le gustaria que lo contactemos?</legend>
+
+                <label for="radioEmail"><input type="radio" name="contacto" value="email" id="radioEmail" class="op"> Email</label>
+            
+
+                <label for="radioTelefono"><input type="radio" name="contacto" value="Telefono" id="radioTelefono" class="op">Telefono</label>
+                
+
+                <label for="radioWhatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radioWhatsapp" class="op" checked>WhatsApp</label>
+
+            
+        </fieldset>
+        <br>
+        <div class="opcion">
+            <select>
+                <option>Mañana </option>
+                <option>Tarde </option>
+                <option>Noche </option>
+            </select>
+        </div>
+<br>
+       <label class="checkbox"><input type="checkbox" name="" id="" checked>
+        ¿Le gustaria recibir notificaciones de la Barberia?</label> 
+
+        <input type="submit" name="contacto" value="Enviar formulario" class = "enviar">
+
+
+
+    </form>
+
+    <table>
+
+        <thead>
+            <tr> 
+                <th>Dia</th>
+                <th>Horarios</th>
+           </tr>
+            
+        </thead>
+        
+        <tbody>
+            
+        <tr><td>Lunes</td> 
+            <td>8am - 9pm</td>
+        </tr>
+
+        <tr><td>Martes</td>
+            <td>8am - 9pm</td>
+        </tr>
+        
+        <tr><td>Viernes</td> 
+            <td>10am - 8pm</td>
+        </tr>
+
+        </tbody>
+        
+    </table>
+
+
+</main>
+
+<footer>
+
+    <img src="imagenesProductos/logo-blanco.png" alt="Logo de hombre con barba">
+
+    <p class="parrafoPie">&copy; Copyright Erasmo Castro 2024</p>
+
+</footer>
+
+
+</body>
+
+</html>
