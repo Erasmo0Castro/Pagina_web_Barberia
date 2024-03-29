@@ -37,9 +37,9 @@ header{
 
 #logg{
 
-        width: 340px; /* Ajusta el ancho según sea necesario */
-        height: auto; /* Mantiene la relación de aspecto del logo */
-        /* Añade espacio a la derecha del logo */
+        width: 340px; 
+        height: auto; 
+       
         
         text-align: right;
             clear: both;
@@ -49,15 +49,13 @@ header{
 #logg{
 
         
-    position: relative; /* Usa posición absoluta para mover el logo libremente dentro del contenedor .header */
-    left: -185px; /* Ajusta este valor para mover el logo hacia la izquierda */
-    top: 0px; /* Ajusta este valor para mover el logo hacia abajo o hacia arriba */
-     /* Asegura que el logo no se repita */
-    /* Asegura que el logo se ajuste dentro de su contenedor sin distorsionarse */
+    position: relative; 
+    left: -185px; 
+    top: 0px; 
+  
     margin: 0 auto;
         
-        
-        /*position: relative; /* Mantén la posición relativa para que el logo se posicione en relación a este contenedor  height: 90px;*/
+      
     }
     
     
@@ -193,7 +191,7 @@ main{
 .fondoSilla{
       
     
-    background-size: contain; /* Ajusta el tamaño de la imagen al 50% del ancho y alto del contenedor */
+    background-size: contain; 
     display: contents;
    background-position: center;
    
